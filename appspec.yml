@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+  - source: WebApp.war
+    destination: /var/lib/tomcat7/webapps
+
+hooks:
+  BeforeInstall:
+
+  AfterInstall:
+
+  ApplicationStart:
+
+  ValidateService:
